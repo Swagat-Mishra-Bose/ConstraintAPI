@@ -2,6 +2,18 @@
 
 Lightweight wrapper to help constraint UI elements easier.
 
+## Integration
+
+### Using Pod
+
+Add below into project Podfile.
+```
+pod 'ConstraintAPI'
+```
+
+Run `pod install` in terminal in the project folder to install the dependencies.
+
+
 ## Usage
 
 API uses wrapper methods to anchor margins/sides, size (width and height) and axis to specific anchor points. The API will handle calls to `translatesAutoresizingMaskIntoConstraints` so it doesn't need to be explicitly invoked.
