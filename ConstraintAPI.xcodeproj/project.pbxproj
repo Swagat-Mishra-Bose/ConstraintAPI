@@ -6,13 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AD7F7110250A89A500AC1320 /* ConstraintAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7F710E250A89A500AC1320 /* ConstraintAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		AD7F710B250A89A500AC1320 /* ConstraintAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD7F710E250A89A500AC1320 /* ConstraintAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstraintAPI.h; sourceTree = "<group>"; };
 		AD7F710F250A89A500AC1320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +41,6 @@
 		AD7F710D250A89A500AC1320 /* ConstraintAPI */ = {
 			isa = PBXGroup;
 			children = (
-				AD7F710E250A89A500AC1320 /* ConstraintAPI.h */,
 				AD7F710F250A89A500AC1320 /* Info.plist */,
 			);
 			path = ConstraintAPI;
@@ -59,7 +53,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7F7110250A89A500AC1320 /* ConstraintAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
