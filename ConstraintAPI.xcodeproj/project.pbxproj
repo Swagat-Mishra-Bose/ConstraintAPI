@@ -6,9 +6,28 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AD7F712E250A8DBF00AC1320 /* MarginConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F7126250A8DBF00AC1320 /* MarginConstraintsAPI.swift */; };
+		AD7F712F250A8DBF00AC1320 /* RelativeViewConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F7127250A8DBF00AC1320 /* RelativeViewConstraintsAPI.swift */; };
+		AD7F7130250A8DBF00AC1320 /* SuperviewConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F7128250A8DBF00AC1320 /* SuperviewConstraintsAPI.swift */; };
+		AD7F7131250A8DBF00AC1320 /* AxisConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F7129250A8DBF00AC1320 /* AxisConstraintsAPI.swift */; };
+		AD7F7132250A8DBF00AC1320 /* LayoutDimensionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F712A250A8DBF00AC1320 /* LayoutDimensionExtensions.swift */; };
+		AD7F7133250A8DBF00AC1320 /* ConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F712B250A8DBF00AC1320 /* ConstraintsAPI.swift */; };
+		AD7F7134250A8DBF00AC1320 /* SizeConstraintsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F712C250A8DBF00AC1320 /* SizeConstraintsAPI.swift */; };
+		AD7F7135250A8DBF00AC1320 /* LayoutAnchorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F712D250A8DBF00AC1320 /* LayoutAnchorExtensions.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AD7F710B250A89A500AC1320 /* ConstraintAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7F710F250A89A500AC1320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7F7126250A8DBF00AC1320 /* MarginConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarginConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F7127250A8DBF00AC1320 /* RelativeViewConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativeViewConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F7128250A8DBF00AC1320 /* SuperviewConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperviewConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F7129250A8DBF00AC1320 /* AxisConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F712A250A8DBF00AC1320 /* LayoutDimensionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutDimensionExtensions.swift; sourceTree = "<group>"; };
+		AD7F712B250A8DBF00AC1320 /* ConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F712C250A8DBF00AC1320 /* SizeConstraintsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeConstraintsAPI.swift; sourceTree = "<group>"; };
+		AD7F712D250A8DBF00AC1320 /* LayoutAnchorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAnchorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +60,14 @@
 		AD7F710D250A89A500AC1320 /* ConstraintAPI */ = {
 			isa = PBXGroup;
 			children = (
+				AD7F7129250A8DBF00AC1320 /* AxisConstraintsAPI.swift */,
+				AD7F712B250A8DBF00AC1320 /* ConstraintsAPI.swift */,
+				AD7F712D250A8DBF00AC1320 /* LayoutAnchorExtensions.swift */,
+				AD7F712A250A8DBF00AC1320 /* LayoutDimensionExtensions.swift */,
+				AD7F7126250A8DBF00AC1320 /* MarginConstraintsAPI.swift */,
+				AD7F7127250A8DBF00AC1320 /* RelativeViewConstraintsAPI.swift */,
+				AD7F712C250A8DBF00AC1320 /* SizeConstraintsAPI.swift */,
+				AD7F7128250A8DBF00AC1320 /* SuperviewConstraintsAPI.swift */,
 				AD7F710F250A89A500AC1320 /* Info.plist */,
 			);
 			path = ConstraintAPI;
@@ -88,6 +115,7 @@
 				TargetAttributes = {
 					AD7F710A250A89A500AC1320 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -124,6 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7F7135250A8DBF00AC1320 /* LayoutAnchorExtensions.swift in Sources */,
+				AD7F712F250A8DBF00AC1320 /* RelativeViewConstraintsAPI.swift in Sources */,
+				AD7F7134250A8DBF00AC1320 /* SizeConstraintsAPI.swift in Sources */,
+				AD7F712E250A8DBF00AC1320 /* MarginConstraintsAPI.swift in Sources */,
+				AD7F7132250A8DBF00AC1320 /* LayoutDimensionExtensions.swift in Sources */,
+				AD7F7133250A8DBF00AC1320 /* ConstraintsAPI.swift in Sources */,
+				AD7F7131250A8DBF00AC1320 /* AxisConstraintsAPI.swift in Sources */,
+				AD7F7130250A8DBF00AC1320 /* SuperviewConstraintsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +289,7 @@
 		AD7F7114250A89A500AC1320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QC9P7FKWH6;
@@ -269,6 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bose.ConstraintAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -277,6 +315,7 @@
 		AD7F7115250A89A500AC1320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QC9P7FKWH6;
